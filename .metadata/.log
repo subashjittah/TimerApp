@@ -1,0 +1,291 @@
+!SESSION 2024-06-24 15:43:48.822 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+This is a continuation of log file S:\workspace\Assessment\Rest\.metadata\.bak_0.log
+Created Time: 2024-06-26 14:49:32.123
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:32.148
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:32.150
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:33.935
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:33.935
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2024-06-26 14:49:34.514
+!MESSAGE Kind:6, Project:Timer
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:35.458
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:49:35.458
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:35.568
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.binding.rest.model_6.3.3300.002.jar', header contains: 'com.tibco.bw.binding.model; name=bw.rest,com.tibco.bw.binding.model; name=bw.rest.reference.binding'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:35.573
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.binding.rest.model_6.3.3300.002.jar', header contains: 'com.tibco.bw.binding.model; name=bw.rest,com.tibco.bw.binding.model; name=bw.rest.reference.binding'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:35.778
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.binding.soap.axis2.model_6.4.1600.002.jar', header contains: 'com.tibco.bw.binding.model; name=bw.soap'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.756
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.com.sun.jersey_2.21.1100.002', header contains: 'osgi.contract;osgi.contract=com.sun.jersey;version:Version=2.4.1;uses:="javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.servlet,javax.servlet.http,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.validation,org.codehaus.jackson,org.codehaus.jackson.jaxrs,org.codehaus.jackson.map,org.codehaus.jackson.type,org.codehaus.jettison.json,org.w3c.dom,org.xml.sax,org.xml.sax.helpersorg.osgi.framework"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.756
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.com.wordnik.swagger_2.20.300.003', header contains: 'osgi.contract;osgi.contract=com.wordnik.swagger;version:Version=2.9.1;uses:="javax.ws.rs.core,javax.ws.rs.ext,org.slf4j"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.756
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.javax.ws.rs_2.2.0.002', header contains: 'osgi.contract;osgi.contract=javax.ws.rs;version:Version=2.0.0;uses:="javax.ws.rs.core,javax.ws.rs.ext,javax.ws.rs"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.756
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.org.apache.axis2.core_1.7.600.001', header contains: 'osgi.contract;osgi.contract=org.apache.axis2;version:Version=1.7.9;uses:="javax.activation,javax.mail.util,javax.net.ssl,javax.servlet,javax.servlet.http,javax.transaction,javax.wsdl,javax.wsdl.extensions,javax.wsdl.xml,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,org.apache.axiom.attachments,org.apache.axiom.om,org.apache.axiom.om.impl.builder,org.apache.axiom.om.util,org.apache.axiom.soap,org.apache.axis2,org.apache.axis2.addressing,org.apache.axis2.addressing.i18n,org.apache.axis2.addressing.metadata,org.apache.axis2.addressing.wsdl,org.apache.axis2.builder,org.apache.axis2.builder.unknowncontent,org.apache.axis2.classloader,org.apache.axis2.client,org.apache.axis2.client.async,org.apache.axis2.clustering,org.apache.axis2.clustering.management,org.apache.axis2.clustering.state,org.apache.axis2.context,org.apache.axis2.context.externalize,org.apache.axis2.dataretrieval,org.apache.axis2.dataretrieval.client,org.apache.axis2.deployment,org.apache.axis2.deployment.repository.util,org.apache.axis2.deployment.resolver,org.apache.axis2.deployment.scheduler,org.apache.axis2.deployment.util,org.apache.axis2.description,org.apache.axis2.description.java2wsdl,org.apache.axis2.description.java2wsdl.bytecode,org.apache.axis2.dispatchers,org.apache.axis2.engine,org.apache.axis2.handlers,org.apache.axis2.i18n,org.apache.axis2.java.security,org.apache.axis2.jsr181,org.apache.axis2.jaxrs,org.apache.axis2.jaxws,org.apache.axis2.jaxws.addressing,org.apache.axis2.jaxws.addressing.factory,org.apache.axis2.jaxws.addressing.factory.impl,org.apache.axis2.jaxws.addressing.migrator,org.apache.axis2.jaxws.addressing.util,org.apache.axis2.jaxws.api,org.apache.axis2.jaxws.binding,org.apache.axis2.jaxws.client,org.apache.axis2.jaxws.client.async,org.apache.axis2.jaxws.client.config,org.apache.axis2.jaxws.client.dispatch,org.apache.axis2.jaxws.client.proxy,org.apache.axis2.jaxws.context,org.apache.axis2.jaxws.context.factory,org.apache.axis2.jaxws.context.listener,org.apache.axis2.jaxws.context.utils,org.apache.axis2.jaxws.core,org.apache.axis2.jaxws.core.controller,org.apache.axis2.jaxws.core.controller.impl,org.apache.axis2.jaxws.core.util,org.apache.axis2.jaxws.dispatchers,org.apache.axis2.jaxws.feature,org.apache.axis2.jaxws.framework,org.apache.axis2.jaxws.handler,org.apache.axis2.jaxws.handler.factory,org.apache.axis2.jaxws.handler.factory.impl,org.apache.axis2.jaxws.handler.impl,org.apache.axis2.jaxws.handler.lifecycle.factory,org.apache.axis2.jaxws.handler.lifecycle.impl,org.apache.axis2.jaxws.injection,org.apache.axis2.jaxws.lifecycle,org.apache.axis2.jaxws.marshaller,org.apache.axis2.jaxws.marshaller.factory,org.apache.axis2.jaxws.marshaller.impl.alt,org.apache.axis2.jaxws.message,org.apache.axis2.jaxws.message.attachments,org.apache.axis2.jaxws.message.databinding,org.apache.axis2.jaxws.message.databinding.impl,org.apache.axis2.jaxws.message.factory,org.apache.axis2.jaxws.message.impl,org.apache.axis2.jaxws.message.util,org.apache.axis2.jaxws.message.util.impl,org.apache.axis2.jaxws.registry,org.apache.axis2.jaxws.runtime.description.injection,org.apache.axis2.jaxws.runtime.description.injection.impl,org.apache.axis2.jaxws.runtime.description.marshal,org.apache.axis2.jaxws.runtime.description.marshal.impl,org.apache.axis2.jaxws.server,org.apache.axis2.jaxws.server.dispatcher,org.apache.axis2.jaxws.server.dispatcher.factory,org.apache.axis2.jaxws.server.endpoint,org.apache.axis2.jaxws.server.endpoint.injection,org.apache.axis2.jaxws.server.endpoint.injection.factory,org.apache.axis2.jaxws.server.endpoint.injection.impl,org.apache.axis2.jaxws.server.endpoint.lifecycle,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory.impl,org.apache.axis2.jaxws.server.endpoint.lifecycle.impl,org.apache.axis2.jaxws.spi,org.apache.axis2.jaxws.spi.handler,org.apache.axis2.jaxws.spi.migrator,org.apache.axis2.jaxws.utility,org.apache.axis2.jaxws.wrapper,org.apache.axis2.jaxws.wrapper.impl,org.apache.axis2.jaxws.wsdl,org.apache.axis2.jaxws.wsdl.impl,org.apache.axis2.modules,org.apache.axis2.namespace,org.apache.axis2.phaseresolver,org.apache.axis2.receivers,org.apache.axis2.service,org.apache.axis2.transaction,org.apache.axis2.transport,org.apache.axis2.transport.http,org.apache.axis2.transport.http.server,org.apache.axis2.transport.http.util,org.apache.axis2.util,org.apache.axis2.util.threadpool,org.apache.axis2.wsdl,org.apache.axis2.wsdl.util,org.apache.commons.fileupload.disk,org.apache.commons.httpclient,org.apache.commons.httpclient.methods,org.apache.commons.httpclient.methods.multipart,org.apache.commons.httpclient.params,org.apache.commons.httpclient.protocol,org.apache.commons.logging,org.apache.http,org.apache.http.params,org.apache.http.protocol,org.apache.neethi,org.apache.woden.resolver,org.apache.woden.wsdl20,org.apache.ws.commons.schema,org.apache.ws.commons.schema.resolver,org.apache.ws.commons.schema.utils,org.w3c.dom,org.xml.sax"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.780
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.org.apache.neethi_3.1.600.001', header contains: 'osgi.contract;osgi.contract=org.apache.neethi;version:Version=3.0.2;uses:="javax.xml.namespace,javax.xml.stream,org.apache.axiom.om,org.apache.neethi,org.apache.neethi.builders,org.apache.neethi.builders.converters,org.apache.neethi.builders.xml,org.apache.neethi.util,org.w3c.dom"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.781
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.org.apache.woden_1.1.600.001', header contains: 'osgi.contract;osgi.contract=org.apache.woden;version:Version=1.0.0;uses:="javax.xml.namespace,org.apache.woden,org.apache.woden.resolver,org.apache.woden.schema,org.apache.woden.types,org.apache.woden.wsdl20,org.apache.woden.wsdl20.enumeration,org.apache.woden.wsdl20.extensions,org.apache.woden.wsdl20.extensions.http,org.apache.woden.wsdl20.extensions.rpc,org.apache.woden.wsdl20.extensions.soap,org.apache.woden.wsdl20.fragids,org.apache.woden.wsdl20.validation,org.apache.woden.wsdl20.xml,org.apache.woden.xml,org.apache.woden.xpointer,org.apache.ws.commons.schema"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.784
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.org.codehaus.jackson_1.10.0.001', header contains: 'osgi.contract;osgi.contract=org.codehaus.jackson;version:Version=1.9.2;uses:="javax.xml.bind.annotation.adapters,  javax.xml.parsers,  org.w3c.dom,  javax.activation,  javax.xml.bind.annotation,  javax.ws.rs,  javax.ws.rs.core,  javax.ws.rs.ext,  org.codehaus.jackson,  org.codehaus.jackson.annotate,  org.codehaus.jackson.format,  org.codehaus.jackson.impl,  org.codehaus.jackson.io,  org.codehaus.jackson.jaxrs,  org.codehaus.jackson.map,  org.codehaus.jackson.map.annotate,  org.codehaus.jackson.map.deser,  org.codehaus.jackson.map.deser.impl,  org.codehaus.jackson.map.deser.std,  org.codehaus.jackson.map.exc,  org.codehaus.jackson.map.ext,  org.codehaus.jackson.map.introspect,  org.codehaus.jackson.map.jsontype,  org.codehaus.jackson.map.jsontype.impl,  org.codehaus.jackson.map.module,  org.codehaus.jackson.map.ser,  org.codehaus.jackson.map.ser.impl,  org.codehaus.jackson.map.ser.std,  org.codehaus.jackson.map.type,  org.codehaus.jackson.map.util,  org.codehaus.jackson.node,  org.codehaus.jackson.schema,  org.codehaus.jackson.sym,  org.codehaus.jackson.type,  org.codehaus.jackson.util,  org.codehaus.jackson.xc"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:37.785
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.bw.tpcl.org.codehaus.jettison_1.4.0.006', header contains: 'osgi.contract;osgi.contract=org.codehaus.jettison;version:Version=1.5.4;uses:="javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.namespace,org.codehaus.jettison,org.codehaus.jettison.badgerfish,org.codehaus.jettison.json,org.codehaus.jettison.mapped,org.codehaus.jettison.util,org.w3c.dom"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:38.474
+!MESSAGE Unable to load product extension information, non-recognized type 'bw.soap.interceptor' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.governance.agent.bw6_2.1.200.008.jar', header contains: 'bw.soap.interceptor'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:39.881
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.tpcl.org.apache.commons.pool_1.6.0.001', header contains: 'osgi.contract;osgi.contract=org.apache.commons.pool;version:Version=1.6.0'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:39.921
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'S:\tibcobwce\bwce\2.8\system\shared\com.tibco.tpcl.org.jaxen_1.1.601.001', header contains: 'osgi.contract;osgi.contract=org.jaxen;version:Version=1.1.4;uses:="javax.xml.parsers,org.dom4j,org.dom4j.io,org.jaxen,org.jaxen.dom,org.jaxen.dom4j,org.jaxen.expr,org.jaxen.expr.iter,org.jaxen.function,org.jaxen.function.ext,org.jaxen.function.xslt,org.jaxen.javabean,org.jaxen.jdom,org.jaxen.pattern,org.jaxen.saxpath,org.jaxen.saxpath.base,org.jaxen.saxpath.helpers,org.jaxen.util,org.jaxen.xom,org.jdom2,org.jdom2.input,org.xml.sax"'
+
+!ENTRY com.tibco.bw.design 4 4 2024-06-26 14:49:41.101
+!MESSAGE File not found: 'S:\tibcobwce\bwce\2.8\config\drivers\shells\jdbc.oracle.runtime'
+!STACK 0
+java.io.FileNotFoundException: S:\tibcobwce\bwce\2.8\config\drivers\shells\jdbc.oracle.runtime\lib\bwextension.ini (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at com.tibco.bw.design.internal.products.BWLayout.loadLayout(BWLayout.java:204)
+	at com.tibco.bw.design.internal.products.BWLayout.loadChildLayouts(BWLayout.java:412)
+	at com.tibco.bw.design.internal.products.BWLayout.loadLayout(BWLayout.java:278)
+	at com.tibco.bw.design.internal.products.ProductInventoryServiceImpl.loadInventory(ProductInventoryServiceImpl.java:83)
+	at com.tibco.bw.design.internal.products.ProductInventoryServiceImpl.getPalettesList(ProductInventoryServiceImpl.java:286)
+	at com.tibco.bw.design.productinventory.BWProductDescriptor.getPalettesList(BWProductDescriptor.java:25)
+	at com.tibco.zion.common.product.inventory.ZionProductDescriptorRegistry.getPalettesList(ZionProductDescriptorRegistry.java:139)
+	at com.tibco.zion.common.product.inventory.ZionProductDescriptorRegistry.getCorePalettesList(ZionProductDescriptorRegistry.java:209)
+	at com.tibco.bw.core.design.resource.validation.BWEndpointValidatorHelper.validateSupportedPlugins(BWEndpointValidatorHelper.java:100)
+	at com.tibco.bw.core.design.resource.validation.BWValidationBuilder.build(BWValidationBuilder.java:235)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.080
+!MESSAGE getSupportedPlugins response cookies
+------------------------------------------------------------------------------------
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.082
+!MESSAGE getSupportedPlugins response headers
+------------------------------------------------------------------------------------
+
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.083
+!MESSAGE Transfer-Encoding=[chunked]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Access-Control-Allow-Origin=[https://integration.cloud.tibco.com]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE X-Content-Type-Options=[nosniff]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Connection=[keep-alive]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Pragma=[no-cache]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Date=[Wed, 26 Jun 2024 09:20:03 GMT]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE X-Frame-Options=[SameOrigin]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Strict-Transport-Security=[max-age=31536000; includeSubDomains; preload]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Cache-Control=[max-age=0, no-cache, no-store, must-revalidate]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Access-Control-Allow-Credentials=[true]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE X-Xss-Protection=[1; mode=block]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Expires=[-1]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE Content-Type=[application/json]
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE ------------------------------------------------------------------------------------
+
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE getSupportedPlugins response string
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE ------------------------------------------------------------------------------------
+
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE {"paletteIDs":["bw.adbplugin","bw.amazoncs","bw.amazonredshift","bw.amazons3","bw.amqp","bw.amqpeb","bw.ariba","bw.auditsafe","bw.azureclouddls2","bw.bc","bw.bigquery","bw.btpservice","bw.bwlx","bw.cassandra","bw.cdcplugin","bw.cdsservices","bw.cloud.ftl","bw.confidentiality","bw.customdriver","bw.customplugin","bw.dataconversion","bw.dynamicscrm","bw.dynamicscrmrest","bw.edi","bw.eftl","bw.eftleb","bw.ems","bw.excel","bw.facebook","bw.fhir.client","bw.fhir.dataModel","bw.fileplugin","bw.ftl","bw.googlecs","bw.googlepubsub","bw.hadoop","bw.hl7","bw.ibmi","bw.kafka","bw.ldap","bw.ldap.cloud","bw.marketorest","bw.mongodb","bw.mq","bw.mqtt","bw.netsuite","bw.odata","bw.oebs","bw.oerp","bw.oozie","bw.oracle","bw.pdf","bw.peoplesoft","bw.pijdbc","bw.pulsar","bw.redis","bw.s4hanacloud","bw.salesforce","bw.salesforce01630313","bw.salesforcecomposite","bw.sap","bw.saphanadbjdbc","bw.saphanadbodata","bw.servicenow","bw.sfbulk","bw.sfbulk01630313","bw.sfbulk2","bw.sftp","bw.sharepoint","bw.sharepointrest","bw.siebel","bw.smartmapper","bw.smpp","bw.snowflake","bw.sqs","bw.successfactors","bw.twitter","bw.webhdfs","bw.workday"],"paletteMapping":{"bw.adbplugin":"tci-bw-plugin-adbplugin:8.6.0.v7","bw.amazoncs":"tci-bw-plugin-amazoncs:6.1.1.v4.1","bw.amazonredshift":"tci-bw-plugin-amazonredshift:6.1.0.v6.1","bw.amazons3":"tci-bw-plugin-amazons3:6.7.0.v6.2","bw.amqp":"tci-bw-plugin-amqp:6.5.0.v8.1","bw.amqpeb":"tci-bw-plugin-amqp:6.2.0.v7-eb","bw.ariba":"tci-bw-plugin-ariba:6.0.0.v8","bw.auditsafe":"tci-bw-plugin-auditsafe:6.4.0.v7","bw.azureclouddls2":"tci-bw-plugin-acs:6.0.0.v16","bw.bc":"tci-bw-plugin-bc:6.3.1.v12.1","bw.bigquery":"tci-bw-plugin-bigquery:6.1.0.v9.1","bw.btpservice":"tci-bw-plugin-btpservice:6.0.0.v12.0.3","bw.bwlx":"tci-bw-plugin-bwlx:6.1.4.v14","bw.cassandra":"tci-bw-plugin-cassandra:6.3.2.v9.1","bw.cdcplugin":"tci-bw-plugin-cdcplugin:6.1.0.v10.1","bw.cdsservices":"tci-bw-plugin-hl7:8.4.0.v11.2","bw.cloud.ftl":"tci-bw-plugin-cloud.ftl:6.4.2.v5","bw.confidentiality":"tci-bw-plugin-confidentiality:6.1.1.v3","bw.customdriver":"tci-bw-plugin-customdriver:DRIVER-SHELL","bw.customplugin":"tci-bw-plugin-customplugin:PLUGIN-SHELL","bw.dataconversion":"tci-bw-plugin-dataconversion:4.7.0.v5.2","bw.dynamicscrm":"tci-bw-plugin-dynamicscrm:6.9.4.v3.1","bw.dynamicscrmrest":"tci-bw-plugin-dynamicscrm:6.10.0.v9","bw.edi":"tci-bw-plugin-edi:6.3.1.v4","bw.eftl":"tci-bw-plugin-eftl:6.0.0.v12","bw.eftleb":"tci-bw-plugin-eftl:6.0.0.v10-tci-2.0-eb","bw.ems":"tci-bw-plugin-ems:DRIVER-SHELL","bw.excel":"tci-bw-plugin-excel:6.1.1.v14","bw.facebook":"tci-bw-plugin-facebook:6.5.0.v3","bw.fhir.client":"tci-bw-plugin-hl7:8.4.0.v11.2","bw.fhir.dataModel":"tci-bw-plugin-hl7:8.4.0.v11.2","bw.fileplugin":"tci-bw-plugin-fileplugin:8.3.0.v7","bw.ftl":"tci-bw-plugin-ftl:6.7.0.v7","bw.googlecs":"tci-bw-plugin-googlecs:6.0.0.v9.1","bw.googlepubsub":"tci-bw-plugin-googlepubsub:6.0.2.v6","bw.hadoop":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","bw.hl7":"tci-bw-plugin-hl7:8.4.0.v11.2","bw.ibmi":"tci-bw-plugin-ibmi:7.3.0.v20","bw.kafka":"tci-bw-plugin-kafka:6.8.0.v13.1","bw.ldap":"tci-bw-plugin-ldap:7.3.0.v4.1","bw.ldap.cloud":"tci-bw-plugin-ldap:7.3.0.v4.1","bw.marketorest":"tci-bw-plugin-marketorest:7.2.2.v13.1","bw.mongodb":"tci-bw-plugin-mongodb:6.4.2.v5","bw.mq":"tci-bw-plugin-mq:8.8.2.v5","bw.mqtt":"tci-bw-plugin-mqtt:6.0.2.v4.1","bw.netsuite":"tci-bw-plugin-netsuite:6.4.0.v5.0.1","bw.odata":"tci-bw-plugin-odata:6.8.0.v2.1","bw.oebs":"tci-bw-plugin-oebs:6.1.2.v12","bw.oerp":"tci-bw-plugin-oerp:6.0.0.v14.1","bw.oozie":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","bw.oracle":"tci-bw-plugin-oracle:DRIVER-SHELL","bw.pdf":"tci-bw-plugin-pdf:6.2.2.v12","bw.peoplesoft":"tci-bw-plugin-peoplesoft:7.3.0.v7","bw.pijdbc":"tci-bw-plugin-pi:6.5.0.v5","bw.pulsar":"tci-bw-plugin-ap:6.2.0.v10.1","bw.redis":"tci-bw-plugin-redis:6.1.0.v6.2","bw.s4hanacloud":"tci-bw-plugin-s4hanacloud:6.4.0.v8","bw.salesforce":"tci-bw-plugin-salesforce:6.10.0.v15","bw.salesforce01630313":"tci-bw-plugin-salesforce01630313:6.5.1.v4-ENGR-001","bw.salesforcecomposite":"tci-bw-plugin-salesforce:6.10.0.v15","bw.sap":"tci-bw-plugin-sap:8.7.0.v9.0.2","bw.saphanadbjdbc":"tci-bw-plugin-saphana:6.1.0.v5.2","bw.saphanadbodata":"tci-bw-plugin-saphana:6.1.0.v5.2","bw.servicenow":"tci-bw-plugin-servicenow:6.1.0.v9.2","bw.sfbulk":"tci-bw-plugin-salesforce:6.10.0.v15","bw.sfbulk01630313":"tci-bw-plugin-salesforce01630313:6.5.1.v4-ENGR-001","bw.sfbulk2":"tci-bw-plugin-salesforce:6.10.0.v15","bw.sftp":"tci-bw-plugin-sftp:6.2.0.v2.1","bw.sharepoint":"tci-bw-plugin-sharepoint:6.3.1.v3.1","bw.sharepointrest":"tci-bw-plugin-sharepoint:6.4.0.v16","bw.siebel":"tci-bw-plugin-siebel:7.3.0.v3","bw.smartmapper":"tci-bw-plugin-smartmapper:7.1.3.v4.0.2","bw.smpp":"tci-bw-plugin-smpp:6.0.3.v5","bw.snowflake":"tci-bw-plugin-snowflake:6.3.0.v5","bw.sqs":"tci-bw-plugin-sqs:6.6.0.v5.1","bw.successfactors":"tci-bw-plugin-successfactors:6.1.0.v12","bw.twitter":"tci-bw-plugin-twitter:6.1.2.v1.1.1","bw.webhdfs":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","bw.workday":"tci-bw-plugin-workday:6.0.1.v13.3"},"pluginMappings":{"bw.adbplugin":{"imageTag":"tci-bw-plugin-adbplugin:8.6.0.v7"},"bw.amazoncs":{"imageTag":"tci-bw-plugin-amazoncs:6.1.1.v4.1"},"bw.amazonredshift":{"imageTag":"tci-bw-plugin-amazonredshift:6.1.0.v6.1"},"bw.amazons3":{"imageTag":"tci-bw-plugin-amazons3:6.7.0.v6.2"},"bw.amqp":{"imageTag":"tci-bw-plugin-amqp:6.5.0.v8.1"},"bw.amqpeb":{"imageTag":"tci-bw-plugin-amqp:6.2.0.v7-eb"},"bw.ariba":{"imageTag":"tci-bw-plugin-ariba:6.0.0.v8"},"bw.auditsafe":{"imageTag":"tci-bw-plugin-auditsafe:6.4.0.v7"},"bw.azureclouddls2":{"imageTag":"tci-bw-plugin-acs:6.0.0.v16"},"bw.bc":{"imageTag":"tci-bw-plugin-bc:6.3.1.v12.1"},"bw.bigquery":{"imageTag":"tci-bw-plugin-bigquery:6.1.0.v9.1","supplement":{"required":true,"filePaths":[{"name":"bigquery.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.btpservice":{"imageTag":"tci-bw-plugin-btpservice:6.0.0.v12.0.3"},"bw.bwlx":{"imageTag":"tci-bw-plugin-bwlx:6.1.4.v14"},"bw.cassandra":{"imageTag":"tci-bw-plugin-cassandra:6.3.2.v9.1"},"bw.cdcplugin":{"imageTag":"tci-bw-plugin-cdcplugin:6.1.0.v10.1","supplement":{"required":false,"filePaths":[{"name":"cdc.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.cdsservices":{"imageTag":"tci-bw-plugin-hl7:8.4.0.v11.2"},"bw.cloud.ftl":{"imageTag":"tci-bw-plugin-cloud.ftl:6.4.2.v5"},"bw.confidentiality":{"imageTag":"tci-bw-plugin-confidentiality:6.1.1.v3"},"bw.customdriver":{"imageTag":"tci-bw-plugin-customdriver:DRIVER-SHELL","supplement":{"required":true,"filePaths":[{"name":"driver.zip","destination":"/resources/addons/jars"}]}},"bw.customplugin":{"imageTag":"tci-bw-plugin-customplugin:PLUGIN-SHELL","supplement":{"required":true,"filePaths":[{"name":"custom.zip","destination":"/resources/addons/plugins"}]}},"bw.dataconversion":{"imageTag":"tci-bw-plugin-dataconversion:4.7.0.v5.2"},"bw.dynamicscrm":{"imageTag":"tci-bw-plugin-dynamicscrm:6.9.4.v3.1"},"bw.dynamicscrmrest":{"imageTag":"tci-bw-plugin-dynamicscrm:6.10.0.v9"},"bw.edi":{"imageTag":"tci-bw-plugin-edi:6.3.1.v4","supplement":{"required":true,"filePaths":[{"name":"supplement_edi.zip","destination":"/opt/tibco/fs"}]},"env":[{"name":"LD_LIBRARY_PATH","value":"/opt/tibco/fs/bin:$LD_LIBRARY_PATH"},{"name":"FSINSTREAMINI","value":"/opt/tibco/fs/bin"},{"name":"FSTRANSLATORINI","value":"/opt/tibco/fs/bin"},{"name":"PATH","value":"$PATH:/opt/tibco/fs/bin"}]},"bw.eftl":{"imageTag":"tci-bw-plugin-eftl:6.0.0.v12"},"bw.eftleb":{"imageTag":"tci-bw-plugin-eftl:6.0.0.v10-tci-2.0-eb"},"bw.ems":{"imageTag":"tci-bw-plugin-ems:DRIVER-SHELL","supplement":{"required":true,"filePaths":[{"name":"ems.zip","destination":"/resources/addons/emstmp"}]}},"bw.excel":{"imageTag":"tci-bw-plugin-excel:6.1.1.v14"},"bw.facebook":{"imageTag":"tci-bw-plugin-facebook:6.5.0.v3"},"bw.fhir.client":{"imageTag":"tci-bw-plugin-hl7:8.4.0.v11.2","supplement":{"required":true,"filePaths":[{"name":"supplement_fhir.zip","destination":"/opt/tibco/fs"}]}},"bw.fhir.dataModel":{"imageTag":"tci-bw-plugin-hl7:8.4.0.v11.2"},"bw.fileplugin":{"imageTag":"tci-bw-plugin-fileplugin:8.3.0.v7"},"bw.ftl":{"imageTag":"tci-bw-plugin-ftl:6.7.0.v7"},"bw.googlecs":{"imageTag":"tci-bw-plugin-googlecs:6.0.0.v9.1","supplement":{"required":true,"filePaths":[{"name":"googlecs.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.googlepubsub":{"imageTag":"tci-bw-plugin-googlepubsub:6.0.2.v6"},"bw.hadoop":{"imageTag":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","supplement":{"required":false,"filePaths":[{"name":"krb5.conf","destination":"/etc/krb5.conf"}]}},"bw.hl7":{"imageTag":"tci-bw-plugin-hl7:8.4.0.v11.2","supplement":{"required":true,"filePaths":[{"name":"supplement_hl7.zip","destination":"/opt/tibco/fs"}]},"env":[{"name":"LD_LIBRARY_PATH","value":"/opt/tibco/fs/bin:$LD_LIBRARY_PATH"},{"name":"FSINSTREAMINI","value":"/opt/tibco/fs/bin"},{"name":"FSTRANSLATORINI","value":"/opt/tibco/fs/bin"},{"name":"PATH","value":"$PATH:/opt/tibco/fs/bin"}]},"bw.ibmi":{"imageTag":"tci-bw-plugin-ibmi:7.3.0.v20"},"bw.kafka":{"imageTag":"tci-bw-plugin-kafka:6.8.0.v13.1","supplement":{"required":true,"filePaths":[{"name":"krb5.conf","destination":"/etc/krb5.conf"}]}},"bw.ldap":{"imageTag":"tci-bw-plugin-ldap:7.3.0.v4.1"},"bw.ldap.cloud":{"imageTag":"tci-bw-plugin-ldap:7.3.0.v4.1"},"bw.marketorest":{"imageTag":"tci-bw-plugin-marketorest:7.2.2.v13.1"},"bw.mongodb":{"imageTag":"tci-bw-plugin-mongodb:6.4.2.v5"},"bw.mq":{"imageTag":"tci-bw-plugin-mq:8.8.2.v5","supplement":{"required":true,"filePaths":[{"name":"com.ibm.mq.osgi.java.jar","destination":"/opt/tibco/bwcloud/1.1/ext/shared/addons/runtime/plugins"}]},"engineProperties":[{"name":"com.ibm.mq.cfg.useIBMCipherMappings","value":""}]},"bw.mqtt":{"imageTag":"tci-bw-plugin-mqtt:6.0.2.v4.1"},"bw.netsuite":{"imageTag":"tci-bw-plugin-netsuite:6.4.0.v5.0.1"},"bw.odata":{"imageTag":"tci-bw-plugin-odata:6.8.0.v2.1"},"bw.oebs":{"imageTag":"tci-bw-plugin-oebs:6.1.2.v12","supplement":{"required":true,"filePaths":[{"name":"oebs.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.oerp":{"imageTag":"tci-bw-plugin-oerp:6.0.0.v14.1"},"bw.oozie":{"imageTag":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","supplement":{"required":false,"filePaths":[{"name":"krb5.conf","destination":"/etc/krb5.conf"}]}},"bw.oracle":{"imageTag":"tci-bw-plugin-oracle:DRIVER-SHELL","supplement":{"required":true,"filePaths":[{"name":"oracle.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared/com.tibco.bw.jdbc.datasourcefactory.oracle"}]}},"bw.pdf":{"imageTag":"tci-bw-plugin-pdf:6.2.2.v12"},"bw.peoplesoft":{"imageTag":"tci-bw-plugin-peoplesoft:7.3.0.v7","supplement":{"required":true,"filePaths":[{"name":"peoplesoft.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.pijdbc":{"imageTag":"tci-bw-plugin-pi:6.5.0.v5","supplement":{"required":true,"filePaths":[{"name":"pi.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]},"env":[{"name":"PI_RDSA_LIB64","value":"/opt/tibco/bwcloud/1.1/system/hotfix/shared/libRdsaWrapper64-1.5.3b.so"}]},"bw.pulsar":{"imageTag":"tci-bw-plugin-ap:6.2.0.v10.1"},"bw.redis":{"imageTag":"tci-bw-plugin-redis:6.1.0.v6.2"},"bw.s4hanacloud":{"imageTag":"tci-bw-plugin-s4hanacloud:6.4.0.v8"},"bw.salesforce":{"imageTag":"tci-bw-plugin-salesforce:6.10.0.v15"},"bw.salesforce01630313":{"imageTag":"tci-bw-plugin-salesforce01630313:6.5.1.v4-ENGR-001"},"bw.salesforcecomposite":{"imageTag":"tci-bw-plugin-salesforce:6.10.0.v15"},"bw.sap":{"imageTag":"tci-bw-plugin-sap:8.7.0.v9.0.2","supplement":{"required":true,"filePaths":[{"name":"sap.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.saphanadbjdbc":{"imageTag":"tci-bw-plugin-saphana:6.1.0.v5.2","supplement":{"required":true,"filePaths":[{"name":"saphana.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.saphanadbodata":{"imageTag":"tci-bw-plugin-saphana:6.1.0.v5.2"},"bw.servicenow":{"imageTag":"tci-bw-plugin-servicenow:6.1.0.v9.2"},"bw.sfbulk":{"imageTag":"tci-bw-plugin-salesforce:6.10.0.v15"},"bw.sfbulk01630313":{"imageTag":"tci-bw-plugin-salesforce01630313:6.5.1.v4-ENGR-001"},"bw.sfbulk2":{"imageTag":"tci-bw-plugin-salesforce:6.10.0.v15"},"bw.sftp":{"imageTag":"tci-bw-plugin-sftp:6.2.0.v2.1"},"bw.sharepoint":{"imageTag":"tci-bw-plugin-sharepoint:6.3.1.v3.1"},"bw.sharepointrest":{"imageTag":"tci-bw-plugin-sharepoint:6.4.0.v16"},"bw.siebel":{"imageTag":"tci-bw-plugin-siebel:7.3.0.v3","supplement":{"required":true,"filePaths":[{"name":"siebel.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.smartmapper":{"imageTag":"tci-bw-plugin-smartmapper:7.1.3.v4.0.2","supplement":{"required":true,"filePaths":[{"name":"smartmapper.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.smpp":{"imageTag":"tci-bw-plugin-smpp:6.0.3.v5"},"bw.snowflake":{"imageTag":"tci-bw-plugin-snowflake:6.3.0.v5","supplement":{"required":true,"filePaths":[{"name":"snowflake.zip","destination":"/opt/tibco/bwcloud/1.1/system/hotfix/shared"}]}},"bw.sqs":{"imageTag":"tci-bw-plugin-sqs:6.6.0.v5.1"},"bw.successfactors":{"imageTag":"tci-bw-plugin-successfactors:6.1.0.v12"},"bw.twitter":{"imageTag":"tci-bw-plugin-twitter:6.1.2.v1.1.1"},"bw.webhdfs":{"imageTag":"tci-bw-plugin-hadoop:6.6.1.v3.0.1","supplement":{"required":false,"filePaths":[{"name":"krb5.conf","destination":"/etc/krb5.conf"}]}},"bw.workday":{"imageTag":"tci-bw-plugin-workday:6.0.1.v13.3"}},"paletteSupport":{"tci-bw-plugin-adbplugin":"premium","tci-bw-plugin-amazoncs":"premium","tci-bw-plugin-amazonredshift":"premium","tci-bw-plugin-amazons3":"premium","tci-bw-plugin-amqp":"premium","tci-bw-plugin-amqpeb":"premium","tci-bw-plugin-ariba":"premium","tci-bw-plugin-auditsafe":"premium","tci-bw-plugin-azureclouddls2":"premium","tci-bw-plugin-bc":"premium","tci-bw-plugin-bigquery":"premium","tci-bw-plugin-btpservice":"premium","tci-bw-plugin-bwlx":"premium","tci-bw-plugin-cassandra":"premium","tci-bw-plugin-cdcplugin":"premium","tci-bw-plugin-cdsservices":"premium","tci-bw-plugin-cloud.ftl":"premium","tci-bw-plugin-confidentiality":"premium","tci-bw-plugin-customdriver":"premium","tci-bw-plugin-customplugin":"premium","tci-bw-plugin-dataconversion":"premium","tci-bw-plugin-dynamicscrm":"premium","tci-bw-plugin-dynamicscrmrest":"premium","tci-bw-plugin-edi":"premium","tci-bw-plugin-eftl":"premium","tci-bw-plugin-eftleb":"premium","tci-bw-plugin-ems":"premium","tci-bw-plugin-excel":"premium","tci-bw-plugin-facebook":"premium","tci-bw-plugin-fhir.client":"premium","tci-bw-plugin-fhir.dataModel":"premium","tci-bw-plugin-fileplugin":"premium","tci-bw-plugin-ftl":"premium","tci-bw-plugin-googlecs":"premium","tci-bw-plugin-googlepubsub":"premium","tci-bw-plugin-hadoop":"premium","tci-bw-plugin-hl7":"premium","tci-bw-plugin-ibmi":"premium","tci-bw-plugin-kafka":"premium","tci-bw-plugin-ldap":"premium","tci-bw-plugin-ldap.cloud":"premium","tci-bw-plugin-marketorest":"premium","tci-bw-plugin-mongodb":"premium","tci-bw-plugin-mq":"premium","tci-bw-plugin-mqtt":"premium","tci-bw-plugin-netsuite":"premium","tci-bw-plugin-odata":"premium","tci-bw-plugin-oebs":"premium","tci-bw-plugin-oerp":"premium","tci-bw-plugin-oozie":"premium","tci-bw-plugin-oracle":"premium","tci-bw-plugin-pdf":"premium","tci-bw-plugin-peoplesoft":"premium","tci-bw-plugin-pijdbc":"premium","tci-bw-plugin-pulsar":"premium","tci-bw-plugin-redis":"premium","tci-bw-plugin-s4hanacloud":"premium","tci-bw-plugin-salesforce":"premium","tci-bw-plugin-salesforce01630313":"premium","tci-bw-plugin-salesforcecomposite":"premium","tci-bw-plugin-sap":"premium","tci-bw-plugin-saphanadbjdbc":"premium","tci-bw-plugin-saphanadbodata":"premium","tci-bw-plugin-servicenow":"premium","tci-bw-plugin-sfbulk":"premium","tci-bw-plugin-sfbulk01630313":"premium","tci-bw-plugin-sfbulk2":"premium","tci-bw-plugin-sftp":"premium","tci-bw-plugin-sharepoint":"premium","tci-bw-plugin-sharepointrest":"premium","tci-bw-plugin-siebel":"premium","tci-bw-plugin-smartmapper":"premium","tci-bw-plugin-smpp":"premium","tci-bw-plugin-snowflake":"premium","tci-bw-plugin-sqs":"premium","tci-bw-plugin-successfactors":"premium","tci-bw-plugin-twitter":"premium","tci-bw-plugin-webhdfs":"premium","tci-bw-plugin-workday":"premium"}}
+
+
+!ENTRY com.tibco.bw.binding.rest.design 1 1 2024-06-26 14:50:03.084
+!MESSAGE ------------------------------------------------------------------------------------
+
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.586
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.596
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.865
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.867
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@3aebca7b (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.868
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.875
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.877
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@7c9edfc8 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:18.878
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2024-06-26 14:50:18.910
+!MESSAGE Kind:9, Project:Timer
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.026
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.042
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@53ac2b4b (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.042
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.042
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.042
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@19487002 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.042
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.084
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:19.085
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.297
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.298
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.349
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.351
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.376
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.378
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.402
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.403
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.453
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.456
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.955
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.955
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.989
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:37.989
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2024-06-26 14:50:38.172
+!MESSAGE Kind:9, Project:Timer
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.135
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.136
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@37a4f4ba (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.137
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.139
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [timer.Process], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.139
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@76d4aee5 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.139
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.619
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2024-06-26 14:50:39.619
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released

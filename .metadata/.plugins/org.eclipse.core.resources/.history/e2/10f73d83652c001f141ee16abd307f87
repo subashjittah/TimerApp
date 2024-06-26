@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="sample">
+    <globalDestinations/>
+  </projectDetails>
+  <config:assetTypes id="com.tibco.xpd.asset.wsdl"/>
+  <config:assetTypes id="com.tibco.bw.process.asset"/>
+  <config:specialFolders>
+    <config:folder id="_gzEl0CxlEe-6pMhnrqDoyw" kind="wsdl" location="Service Descriptors"/>
+    <config:folder id="_gzjuACxlEe-6pMhnrqDoyw" kind="com.tibco.bw.process.folder" location="Processes"/>
+  </config:specialFolders>
+</config:ProjectConfig>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.tibco.com/CustomerDetails/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CustomerDetails" targetNamespace="http://www.tibco.com/CustomerDetails/">
+    
+  <wsdl:types>
+        
+    <xsd:schema xmlns:pref="http://www.example.com/namespaces/tns/1718253437335" targetNamespace="http://www.tibco.com/CustomerDetails/">
+          	
+      <xsd:import namespace="http://www.example.com/namespaces/tns/1718253437335" schemaLocation="../Schemas/customer.xsd"/>
+          	
+
+    	
+          	
+      <xsd:element name="CustomerDetailsResponse">
+            		
+        <xsd:complexType>
+              			
+          <xsd:sequence>
+                				
+            <xsd:element name="Response" type="xsd:string"/>
+                			
+          </xsd:sequence>
+              		
+        </xsd:complexType>
+            	
+      </xsd:element>
+          
+    	
+      <xsd:complexType name="Custom"tns:CustomerRequest"  		
+        <xsd:sequence>
+
+    		</xsd:sequence>
+            	
+      </xsd:complexType>
+          
+    </xsd:schema>
+      
+  </wsdl:types>
+    
+  <wsdl:message name="CustomerDetailsRequest">
+        
+    <wsdl:part element="tns:CustomerRequest" name="parameters"/>
+      
+  </wsdl:message>
+    
+  <wsdl:message name="CustomerDetailsResponse">
+        
+    <wsdl:part element="tns:CustomerDetailsResponse" name="parameters"/>
+      
+  </wsdl:message>
+    
+  <wsdl:portType name="CustomerDetails">
+        
+    <wsdl:operation name="CustomerDetails">
+            
+      <wsdl:input message="tns:CustomerDetailsRequest"/>
+            
+      <wsdl:output message="tns:CustomerDetailsResponse"/>
+          
+    </wsdl:operation>
+      
+  </wsdl:portType>
+    
+  <wsdl:binding name="CustomerDetailsSOAP" type="tns:CustomerDetails">
+        
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        
+    <wsdl:operation name="CustomerDetails">
+            
+      <soap:operation soapAction="http://www.tibco.com/CustomerDetails/CustomerDetails"/>
+            
+      <wsdl:input>
+                
+        <soap:body use="literal"/>
+              
+      </wsdl:input>
+            
+      <wsdl:output>
+                
+        <soap:body use="literal"/>
+              
+      </wsdl:output>
+          
+    </wsdl:operation>
+      
+  </wsdl:binding>
+    
+  <wsdl:service name="CustomerDetails">
+        
+    <wsdl:port binding="tns:CustomerDetailsSOAP" name="CustomerDetailsSOAP">
+            
+      <soap:address location="http://www.example.org/"/>
+          
+    </wsdl:port>
+      
+  </wsdl:service>
+  
+</wsdl:definitions>

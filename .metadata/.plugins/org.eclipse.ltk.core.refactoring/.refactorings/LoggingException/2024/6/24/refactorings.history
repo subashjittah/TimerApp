@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete Module Configuration Property &apos;/Connections/newProperty&apos;" description="Delete Module Configuration Property &apos;/Connections/newProperty&apos;" flags="7" id="com.tibco.bw.core.design.refactoring.delete.moduleproperty" stamp="1718255934842"/>&#x0A;<refactoring comment="Change XSD Element name from &apos;ErrorMessage&apos; to &apos;Message&apos;" description="Change XSD Element name from &apos;ErrorMessage&apos; to &apos;Message&apos;" flags="6" id="com.tibco.zion.refactoring.renameXSDElementDescriptor" stamp="1718256800465"/>
+</session>

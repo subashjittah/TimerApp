@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tibco.bw</groupId>
+    <artifactId>Timer.application.parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../Timer.application.parent</relativePath>
+  </parent>
+  <artifactId>Timer.application</artifactId>
+  <packaging>bwear</packaging>
+  <properties>
+    <docker.env.property.file>S:\workspace\Assessment\Rest\Timer.application\docker-host-env-dev.properties</docker.env.property.file>
+    <project.type>Docker</project.type>
+    <docker.property.file>docker-dev.properties</docker.property.file>
+    <bw.Home>/bwce/2.8</bw.Home>
+    <skipTests>false</skipTests>
+    <failIfNoTests>false</failIfNoTests>
+    <tibco.Home>S:/tibcobwce</tibco.Home>
+  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.tibco.plugins</groupId>
+        <artifactId>bw6-maven-plugin</artifactId>
+        <version>2.9.6</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>com.tibco.plugins</groupId>
+        <artifactId>bw6-maven-plugin</artifactId>
+        <version>2.9.6</version>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>

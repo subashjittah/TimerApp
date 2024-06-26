@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Elements" xmlns:tns="http://www.example.org/Elements" elementFormDefault="qualified">
+
+    <element name="Element" type="string"></element>
+
+    <complexType name="Element">
+    	<sequence>
+    		<element name="name" type="string"></element>
+    		<element name="Country" type="string"></element>
+    		<element name="capital" type="string"></element>
+    		<element name="population" type="int"></element>
+    		<element name="area_sq_km" type="int"></element>
+    		<element name="currency" type="string"></element>
+    		<element name="language" type="string"></element>
+    		<element name="neighbors" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

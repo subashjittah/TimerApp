@@ -1,0 +1,5 @@
+com.tibco.bw.design.schemaSelection.showProcessInlineXSDElement=true
+com.tibco.bw.design.schemaSelection.showProcessInlineXSDType=true
+com.tibco.bw.design.schemaSelection.showWSDLInlineXSDElement=true
+com.tibco.bw.design.schemaSelection.showWSDLInlineXSDType=true
+eclipse.preferences.version=1

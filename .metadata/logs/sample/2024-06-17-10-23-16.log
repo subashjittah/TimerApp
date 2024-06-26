@@ -1,0 +1,252 @@
+2024-06-17 10:23:16,849 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Generating BW 6 application for BW5 project/projects at S:\workspace\Assessment\sample
+2024-06-17 10:23:18,050 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating Global Variables..
+2024-06-17 10:23:18,388 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating Shared Resources..
+2024-06-17 10:23:18,655 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/CLESchemas/ExceptionSchema.xsd
+2024-06-17 10:23:18,679 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/CLESchemas/loggingSchema.xsd
+2024-06-17 10:23:18,710 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/RestService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:18,729 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/RestService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:18,752 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/SoapService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:18,770 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating XML Schema resource :S:/workspace/Assessment/sample/Assessment2/SoapService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:19,204 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.isteer.com/CommonCLE/Schemas/CLEProcess/ErrorLog/ErrorLogInput.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/CLESchemas/ExceptionSchema.xsd
+2024-06-17 10:23:19,205 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.isteer.com/CommonCLE/Schemas/CLEProcess/ErrorLog/ErrorLogInput.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/CLESchemas/ExceptionSchema.xsd
+2024-06-17 10:23:19,206 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.isteer.com/CommonCLE/Schemas/CLEProcess/StartLog/Startinput.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/CLESchemas/loggingSchema.xsd
+2024-06-17 10:23:19,207 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.isteer.com/CommonCLE/Schemas/CLEProcess/StartLog/Startinput.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/CLESchemas/loggingSchema.xsd
+2024-06-17 10:23:19,208 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.example.com/namespaces/tns/1718268432565       file:/s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:19,208 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718268432565   with location   s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:19,209 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - null       file:/s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:19,210 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => null   with location   s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:19,211 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.tibco.com/schemas/june14/Schema/Schema.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/SoapService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:19,212 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.tibco.com/schemas/june14/Schema/Schema.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/SoapService/Schemas/RequestSchema.xsd
+2024-06-17 10:23:19,212 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.tibco.com/ns/no_namespace_schema_location/SoapService/Schemas/ResponseSchema.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/SoapService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:19,214 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.tibco.com/ns/no_namespace_schema_location/SoapService/Schemas/ResponseSchema.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/SoapService/Schemas/ResponseSchema.xsd
+2024-06-17 10:23:19,216 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - /sample/Assessment2/RestService/Process/GetDetails-Start-Input.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-Start-Input.xsd
+2024-06-17 10:23:19,218 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => /sample/Assessment2/RestService/Process/GetDetails-Start-Input.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-Start-Input.xsd
+2024-06-17 10:23:19,219 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - /sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd
+2024-06-17 10:23:19,220 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => /sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd
+2024-06-17 10:23:19,221 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - /sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd       file:/s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd
+2024-06-17 10:23:19,222 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => /sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd   with location   s:/workspace/Assessment/Rest/sample/Assessment2/RestService/Process/GetDetails-End-Output.xsd
+2024-06-17 10:23:19,223 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/baseDocument       file:/s:/workspace/Assessment/Rest/sample/Schemas/ae/baseDocument.xsd
+2024-06-17 10:23:19,224 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/baseDocument   with location   s:/workspace/Assessment/Rest/sample/Schemas/ae/baseDocument.xsd
+2024-06-17 10:23:19,225 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.tibco.com/xmlns/ae2xsd/2002/05       file:/s:/workspace/Assessment/Rest/sample/Schemas/ae2xsd.xsd
+2024-06-17 10:23:19,225 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05   with location   s:/workspace/Assessment/Rest/sample/Schemas/ae2xsd.xsd
+2024-06-17 10:23:19,226 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - http://www.tibco.com/xmlns/ae2xsd/2002/05       file:/s:/workspace/Assessment/Rest/sample/Schemas/ae2xsd.xsd
+2024-06-17 10:23:19,227 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05   with location   s:/workspace/Assessment/Rest/sample/Schemas/ae2xsd.xsd
+2024-06-17 10:23:19,241 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Found Migrator for fileExtensionsharedhttp  com.tibco.bw.tools.migrator.v6.palette.http.sharedResource.HttpConnectorResourceMigrator@675f0418
+2024-06-17 10:23:19,514 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Found Migrator for fileExtensionsharedjdbc  com.tibco.bw.tools.migrator.v6.palette.jdbc.connection.JDBCSharedResourceMigrator@64c5a886
+2024-06-17 10:23:19,743 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating JDBC Shared Resource for URIs:/workspace/Assessment/Rest/sample/Assessment2/RestService/SharedResources/JDBC-Connection.sharedjdbc
+2024-06-17 10:23:19,746 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Updating deprecated Oracle driver name
+2024-06-17 10:23:19,767 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Found Migrator for fileExtensionsharedjmscon  com.tibco.bw.tools.migrator.v6.palette.jms.connection.JMSConnectionMigrator@37ab62c8
+2024-06-17 10:23:20,009 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Creating JMS Shared Resource for URI : s:/workspace/Assessment/Rest/sample/Assessment2/RestService/SharedResources/JMS-Connection.sharedjmscon
+2024-06-17 10:23:20,054 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Found Migrator for fileExtensionsharedjmscon  com.tibco.bw.tools.migrator.v6.palette.jms.connection.JMSConnectionMigrator@37ab62c8
+2024-06-17 10:23:20,321 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Creating JMS Shared Resource for URI : s:/workspace/Assessment/Rest/sample/Assessment2/SharedResources/JMS-Connection.sharedjmscon
+2024-06-17 10:23:20,359 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Found Migrator for fileExtensionsharedhttp  com.tibco.bw.tools.migrator.v6.palette.http.sharedResource.HttpConnectorResourceMigrator@675f0418
+2024-06-17 10:23:21,000 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating Processes..
+2024-06-17 10:23:21,017 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Process Migration Order is => 
+2024-06-17 10:23:21,018 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment2/CLE/ExceptionLogging.process
+2024-06-17 10:23:21,019 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment2/CLE/JMSReceiver.process
+2024-06-17 10:23:21,021 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment2/RestService/Dispatcher/Process Definition.process
+2024-06-17 10:23:21,021 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment2/RestService/Process/GetDetails.process
+2024-06-17 10:23:21,022 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment2/SoapService/Process/PortTypeOperation.process
+2024-06-17 10:23:21,023 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Assessment3/Process/Process Definition.process
+2024-06-17 10:23:21,438 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment2/CLE/ExceptionLogging.process
+2024-06-17 10:23:21,444 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.CLE.ExceptionLogging" migration started
+2024-06-17 10:23:21,579 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Start" has been migrated.
+2024-06-17 10:23:21,588 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Start
+2024-06-17 10:23:21,588 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Start	HASHCODE: 1680662041
+2024-06-17 10:23:21,589 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:21,589 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:21,599 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Write to Log activity "Log" migration tasks :
+2024-06-17 10:23:21,601 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating WriteToLog Activity
+2024-06-17 10:23:21,602 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating WriteToLog Role: User
+2024-06-17 10:23:21,602 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating WriteToLog SuppressJobInfo: false
+2024-06-17 10:23:22,156 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Log" has been migrated.
+2024-06-17 10:23:22,164 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Log
+2024-06-17 10:23:22,165 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Log	HASHCODE: 1902541069
+2024-06-17 10:23:22,165 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:22,166 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:22,171 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating JMS Send Activity activity with name JMS Queue Sender
+2024-06-17 10:23:23,302 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "JMS Queue Sender" has been migrated.
+2024-06-17 10:23:23,316 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity JMS-Queue-Sender
+2024-06-17 10:23:23,317 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: JMS-Queue-Sender	HASHCODE: 1888046883
+2024-06-17 10:23:23,317 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:23,317 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:23,326 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:23,327 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:23,327 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 259186974
+2024-06-17 10:23:23,327 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:23,328 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:23,338 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:23,359 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:23,409 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:23,424 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.CLE.ExceptionLogging" migration done.
+2024-06-17 10:23:23,511 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718255246867   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/Address.xsd
+2024-06-17 10:23:23,514 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718253437335   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/customer.xsd
+2024-06-17 10:23:23,517 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://xmlns.example.com/Resource/parameters   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/ResourceParameterSchema.xsd
+2024-06-17 10:23:23,519 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718254493100   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/Response.xsd
+2024-06-17 10:23:23,524 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://tns.tibco.com/bw/REST   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/RESTSchema.xsd
+2024-06-17 10:23:23,527 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718267182509   with location   S:/workspace/Assessment/Rest/Assessment1/Schemas/Schema.xsd
+2024-06-17 10:23:23,530 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Added Schema to ResourceSet => http://www.example.com/namespaces/tns/1718256487551   with location   S:/workspace/Assessment/Rest/LoggingException/Schemas/Exception.xsd
+2024-06-17 10:23:23,949 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment2/CLE/JMSReceiver.process
+2024-06-17 10:23:23,956 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.CLE.JMSReceiver" migration started
+2024-06-17 10:23:23,964 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating JMS Queue Receiver Event Source activity with name JMS Queue Receiver
+2024-06-17 10:23:24,386 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "JMS Queue Receiver" has been migrated.
+2024-06-17 10:23:24,446 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity JMS-Queue-Receiver
+2024-06-17 10:23:24,450 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: JMS-Queue-Receiver	HASHCODE: 1753842117
+2024-06-17 10:23:24,452 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:24,453 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:24,470 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 
+File write activity "Write File" migration tasks :
+2024-06-17 10:23:24,470 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating write file activity
+2024-06-17 10:23:24,474 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - migrating write file append configuration property
+2024-06-17 10:23:24,475 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - migrating write file write as configuration property
+2024-06-17 10:23:24,476 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - migrating write file compress mode property
+2024-06-17 10:23:24,476 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - migrating write file create missing directory property
+2024-06-17 10:23:24,924 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Write File" has been migrated.
+2024-06-17 10:23:24,949 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Write-File
+2024-06-17 10:23:24,949 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Write-File	HASHCODE: 1736109953
+2024-06-17 10:23:24,949 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:24,950 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:24,952 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Write to Log activity "Log" migration tasks :
+2024-06-17 10:23:24,953 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating WriteToLog Activity
+2024-06-17 10:23:24,953 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating WriteToLog Role: User
+2024-06-17 10:23:24,953 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating WriteToLog SuppressJobInfo: false
+2024-06-17 10:23:25,325 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Log" has been migrated.
+2024-06-17 10:23:25,341 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Log
+2024-06-17 10:23:25,343 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Log	HASHCODE: 219992416
+2024-06-17 10:23:25,344 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:25,345 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:25,355 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:25,356 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:25,357 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 220150434
+2024-06-17 10:23:25,357 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:25,358 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:25,407 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:25,441 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:25,462 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:25,464 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.CLE.JMSReceiver" migration done.
+2024-06-17 10:23:25,892 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment2/RestService/Dispatcher/Process Definition.process
+2024-06-17 10:23:25,902 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.RestService.Dispatcher.Process-Definition" migration started
+2024-06-17 10:23:25,940 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migration Progress:
+	Total Processes = 6
+	Migrated Processes = 2
+	Partially Migrated Processes = 1
+	Remaining Processes to Migrate = 4
+2024-06-17 10:23:26,207 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment2/RestService/Process/GetDetails.process
+2024-06-17 10:23:26,218 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.RestService.Process.GetDetails" migration started
+2024-06-17 10:23:26,232 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Start" has been migrated.
+2024-06-17 10:23:26,240 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Start
+2024-06-17 10:23:26,240 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Start	HASHCODE: 1844658610
+2024-06-17 10:23:26,241 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:26,243 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:26,252 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating activity with name JDBC Query
+2024-06-17 10:23:26,313 [Worker-73: Migrate] WARN  com.tibco.bw.migration.debug - Having trouble getting database column metadata for activity JDBC Query
+2024-06-17 10:23:27,082 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "JDBC Query" has been migrated.
+2024-06-17 10:23:27,089 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity JDBC-Query
+2024-06-17 10:23:27,090 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: JDBC-Query	HASHCODE: 773499221
+2024-06-17 10:23:27,090 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:27,090 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:27,104 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Start to migrate RenderJSON Activity...
+2024-06-17 10:23:27,104 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating EObject activity
+2024-06-17 10:23:27,470 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Render JSON" has been migrated.
+2024-06-17 10:23:27,489 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Render-JSON
+2024-06-17 10:23:27,490 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Render-JSON	HASHCODE: 1594464066
+2024-06-17 10:23:27,490 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:27,491 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:27,944 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Call Process" has been migrated.
+2024-06-17 10:23:27,945 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Call-Process
+2024-06-17 10:23:27,946 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Call-Process	HASHCODE: 762827978
+2024-06-17 10:23:27,947 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:27,947 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:28,030 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:28,037 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:28,038 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 991084240
+2024-06-17 10:23:28,039 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:28,039 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:28,515 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Loggimg" has been migrated.
+2024-06-17 10:23:28,516 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Loggimg
+2024-06-17 10:23:28,517 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Loggimg	HASHCODE: 1490241164
+2024-06-17 10:23:28,518 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:28,518 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:28,705 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:28,711 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:28,711 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 1902930091
+2024-06-17 10:23:28,712 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:28,714 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:28,787 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:28,813 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:28,842 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:28,881 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:28,883 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:28,895 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.RestService.Process.GetDetails" migration done.
+2024-06-17 10:23:29,430 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment2/SoapService/Process/PortTypeOperation.process
+2024-06-17 10:23:29,434 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.SoapService.Process.PortTypeOperation" migration started
+2024-06-17 10:23:29,442 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Start" has been migrated.
+2024-06-17 10:23:29,446 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Start
+2024-06-17 10:23:29,446 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Start	HASHCODE: 1754836260
+2024-06-17 10:23:29,446 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:29,446 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:29,520 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "start" has been migrated.
+2024-06-17 10:23:29,521 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity GroupStart
+2024-06-17 10:23:29,521 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: GroupStart	HASHCODE: 1572275199
+2024-06-17 10:23:29,521 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:29,522 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:29,525 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Migrating activity with name JDBC Query
+2024-06-17 10:23:29,560 [Worker-73: Migrate] WARN  com.tibco.bw.migration.debug - Having trouble getting database column metadata for activity JDBC Query
+2024-06-17 10:23:30,095 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "JDBC Query" has been migrated.
+2024-06-17 10:23:30,135 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity JDBC-Query
+2024-06-17 10:23:30,135 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: JDBC-Query	HASHCODE: 1971094003
+2024-06-17 10:23:30,135 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:30,136 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:30,137 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:30,187 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:30,191 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Group" has been migrated.
+2024-06-17 10:23:30,193 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Group
+2024-06-17 10:23:30,194 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Group	HASHCODE: 559270375
+2024-06-17 10:23:30,194 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:30,579 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Call Process" has been migrated.
+2024-06-17 10:23:30,580 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Call-Process
+2024-06-17 10:23:30,580 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Call-Process	HASHCODE: 1918330701
+2024-06-17 10:23:30,580 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:30,580 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:30,633 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:30,638 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:30,638 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 581117126
+2024-06-17 10:23:30,638 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:30,639 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:30,998 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Loggimg" has been migrated.
+2024-06-17 10:23:30,998 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Loggimg
+2024-06-17 10:23:30,998 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Loggimg	HASHCODE: 228866242
+2024-06-17 10:23:30,998 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:30,998 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:31,038 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:31,045 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:31,047 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 1583385250
+2024-06-17 10:23:31,047 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:31,047 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:31,054 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:31,077 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:31,084 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:31,096 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:31,104 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment2.SoapService.Process.PortTypeOperation" migration done.
+2024-06-17 10:23:31,579 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - Migrating process - Assessment3/Process/Process Definition.process
+2024-06-17 10:23:31,588 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment3.Process.Process-Definition" migration started
+2024-06-17 10:23:31,603 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Start" has been migrated.
+2024-06-17 10:23:31,604 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Start
+2024-06-17 10:23:31,606 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Start	HASHCODE: 838955442
+2024-06-17 10:23:31,606 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:31,607 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:31,630 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Start to migrate Invoke REST API Activity...
+2024-06-17 10:23:31,630 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - Creating Rest activity
+2024-06-17 10:23:32,058 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "Invoke REST API" has been migrated.
+2024-06-17 10:23:32,067 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity Invoke-REST-API
+2024-06-17 10:23:32,067 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: Invoke-REST-API	HASHCODE: 38335509
+2024-06-17 10:23:32,067 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:32,068 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:32,072 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - The activity "End" has been migrated.
+2024-06-17 10:23:32,072 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	*** Updated Activity Report from HANDLER for Activity End
+2024-06-17 10:23:32,073 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		*** Activity: End	HASHCODE: 1420742492
+2024-06-17 10:23:32,073 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 		 IsUpdated = true
+2024-06-17 10:23:32,073 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - 	***DONE
+2024-06-17 10:23:32,077 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:32,101 [Worker-73: Migrate] DEBUG com.tibco.bw.migration.debug - ############## ProcessReportImpl->addReport() not implemented for: class org.eclipse.bpel.model.impl.SourceImpl ####################
+2024-06-17 10:23:32,109 [Worker-73: Migrate] INFO  com.tibco.bw.migration.debug - The process "Assessment3.Process.Process-Definition" migration done.

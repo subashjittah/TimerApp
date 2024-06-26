@@ -1,0 +1,5 @@
+1718253749664	Rename resource 'assessment1'
+1718253843195	Rename resource 'SubProcess.bwp'
+1718254439847	Change XSD Element name from 'primitive' to 'Status'
+1718267674843	Move 'CustomerDetails.bwp' to 'MainProcess'
+1718269586641	Delete PartnerLink 'CustomerDetails1'

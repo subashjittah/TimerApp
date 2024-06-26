@@ -1,0 +1,119 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Resource",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/addaddress" : {
+      "post" : {
+        "summary" : "postResource",
+        "description" : "postResource",
+        "operationId" : "post-addaddress",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/Address"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a string to be returned",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    },
+    "/adduser" : {
+      "post" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "post-resource",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/Customer"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a string to be returned",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Address" : {
+      "type" : "object",
+      "properties" : {
+        "HouseNumber" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "Floor" : {
+          "type" : "string"
+        },
+        "Block" : {
+          "type" : "string"
+        },
+        "NearbyLandmark" : {
+          "type" : "string"
+        },
+        "Area" : {
+          "type" : "string"
+        },
+        "Pincode" : {
+          "type" : "integer",
+          "format" : "int32"
+        }
+      }
+    },
+    "Customer" : {
+      "type" : "object",
+      "required" : [ "Status", "DOB", "CustomerID" ],
+      "properties" : {
+        "CustomerID" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "FirstName" : {
+          "type" : "string"
+        },
+        "LastName" : {
+          "type" : "string"
+        },
+        "PhoneNumber" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "DOB" : {
+          "type" : "string",
+          "format" : "date-time"
+        },
+        "Status" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
